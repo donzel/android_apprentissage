@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TextView android:text="Les items précédés d&apos;un V ouvre un sous-menu" />
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="N&apos;ouvre pas un sous-menu" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Non !" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="V" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Ouvre un sous-menu" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="La si !" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView android:text="V" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="Ouvre un sous-menu" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+        android:layout_column="1"
+        android:layout_span="2"
+        android:padding="3dip"
+        android:text="Cet intem s'entend sur deux colonnes" />
+    </TableRow>
+
+</TableLayout>

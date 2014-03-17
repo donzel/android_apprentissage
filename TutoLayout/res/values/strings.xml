@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TutoLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nomDelexemple">Texte de la chaîne qui s\'appelle \"nonDeLEXEMPLE\"</string>
+	<string name="histoire">Vous-connaissez l\'histoire de <b>\"Tom Sawyer\"</b> ?</string>
+	<!-- Plusieur language exemple deux ressources -->
+	<string name = "hello">Boujour %1$s, vous avez %2$d ans.</string>
+</resources>

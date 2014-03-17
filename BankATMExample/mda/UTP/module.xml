@@ -1,0 +1,264 @@
+<module uid="607b0d93-e272-11df-b1e4-0027103ea5f4" name="UTP" class="com.modeliosoft.modelio.utp.impl.UTPMdac"  version = "2.0.03.8020"
+        binaryversion = "2.2.0.8020"   licenseRequired = "false">
+  <profile uid="607c6d24-e272-11df-b1e4-0027103ea5f4" name="UTPProfile" >
+      <stereotype uid="dd5475f6-e278-11df-b95d-0027103ea5f4" name="TestContext" label="TestContext" metaclass="Classifier" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/testcontext16.png" />
+              <explorer path="UTP/res/bmp/testcontext16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="13de32b1-e279-11df-b95d-0027103ea5f4" name="TestComponent" label="TestComponent" metaclass="Classifier" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/testcomponent16.png" />
+              <explorer path="UTP/res/bmp/testcomponent16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="ed653299-e278-11df-b95d-0027103ea5f4" name="TestCase" label="TestCase" metaclass="Operation" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/testcase16.png" />
+              <explorer path="UTP/res/bmp/testcase16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="26ede16d-e279-11df-b95d-0027103ea5f4" name="TestCase" label="TestCase" metaclass="Behavior" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/testcase16.png" />
+              <explorer path="UTP/res/bmp/testcase16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="452c5975-e279-11df-b95d-0027103ea5f4" name="TestObjective" label="TestObjective" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/u2tp16.png" />
+              <explorer path="UTP/res/bmp/u2tp16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="5ce79f75-e279-11df-b95d-0027103ea5f4" name="SUT" label="SUT" metaclass="Attribute" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/sut16.png" />
+              <explorer path="UTP/res/bmp/sut16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="6cff6aed-e279-11df-b95d-0027103ea5f4" name="TestSet" label="TestSet" metaclass="Package" is-hidden="true">
+          <icons>
+              <small path="UTP/res/bmp/testpackage16.png" />
+              <explorer path="UTP/res/bmp/testpackage16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="71ed0cf4-e2ab-11df-b4b4-0027103ea5f4" name="TestLog" label="TestLog" metaclass="Behavior" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/u2tp16.png" />
+              <explorer path="UTP/res/bmp/u2tp16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="83ba8aa0-e2ab-11df-b4b4-0027103ea5f4" name="TestLogApplication" label="TestLogApplication" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/u2tp16.png" />
+              <explorer path="UTP/res/bmp/u2tp16.png" />
+              <diagram path="UTP/res/bmp/tc32x32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="43efe2e6-e339-11df-9694-0027103ea5f4" name="Default" label="Default" metaclass="Behavior" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="50726a80-e339-11df-9694-0027103ea5f4" name="DefaultApplication" label="DefaultApplication" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="5824d3f0-e339-11df-9694-0027103ea5f4" name="ValidationAction" label="ValidationAction" metaclass="CallOperationAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="639bd821-e339-11df-9694-0027103ea5f4" name="FinishAction" label="FinishAction" metaclass="ActivityAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="708b2e14-e339-11df-9694-0027103ea5f4" name="LogAction" label="LogAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="f8f7c8bf-e339-11df-9694-0027103ea5f4" name="TimeOut" label="TimeOut" metaclass="Event" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="0180e89e-e33a-11df-9694-0027103ea5f4" name="TimeOutMessage" label="TimeOutMessage" metaclass="Message" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="0f55262d-e33a-11df-9694-0027103ea5f4" name="TimeOutAction" label="TimeOutAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="1a87576b-e33a-11df-9694-0027103ea5f4" name="StartTimerAction" label="StartTimerAction" metaclass="CallOperationAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="242e98cd-e33a-11df-9694-0027103ea5f4" name="StopTimerAction" label="StopTimerAction" metaclass="CallOperationAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="2daef040-e33a-11df-9694-0027103ea5f4" name="ReadTimerAction" label="ReadTimerAction" metaclass="CallOperationAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="41d5d72e-e33a-11df-9694-0027103ea5f4" name="TimerRunningAction" label="TimerRunningAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="534b4816-e33a-11df-9694-0027103ea5f4" name="GetTimezoneAction" label="GetTimezoneAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="5e3a7b2d-e33a-11df-9694-0027103ea5f4" name="SetTimezoneAction" label="SetTimezoneAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="6a3d2121-e33a-11df-9694-0027103ea5f4" name="GetTimezoneAction" label="GetTimezoneAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="715a99c1-e33a-11df-9694-0027103ea5f4" name="SetTimezoneAction" label="SetTimezoneAction" metaclass="OpaqueAction" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="164b939b-e361-11df-a678-0027103ea5f4" name="CodingRule_Attribute" label="CodingRule" metaclass="Attribute" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+              <taggedvalues uid="8b8cb701-e364-11df-a678-0027103ea5f4" name="coding" label="" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="6d93ea4e-e362-11df-a678-0027103ea5f4" name="CodingRule_NameSpace" label="CodingRule" metaclass="NameSpace" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+              <taggedvalues uid="8fc9e038-e364-11df-a678-0027103ea5f4" name="coding" label="" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="d2034a31-e363-11df-a678-0027103ea5f4" name="CodingRule_Instance" label="CodingRule" metaclass="Instance" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+              <taggedvalues uid="932de1f0-e364-11df-a678-0027103ea5f4" name="coding" label="" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="0fba242a-e364-11df-a678-0027103ea5f4" name="DataPool" label="DataPool" metaclass="Classifier" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="1878d458-e364-11df-a678-0027103ea5f4" name="DataPool" label="DataPool" metaclass="Attribute" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="2f1d9cda-e364-11df-a678-0027103ea5f4" name="DataPartition" label="DataPartition" metaclass="Classifier" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="368dcb78-e364-11df-a678-0027103ea5f4" name="DataSelector" label="DataSelector" metaclass="Operation" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="d74be1ee-e69b-11df-87fb-0027103ea5f4" name="StartTimerAction" label="StartTimerAction" metaclass="StateInvariant" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/starttimer16.png" />
+              <explorer path="UTP/res/bmp/starttimer16.png" />
+              <diagram path="UTP/res/bmp/starttimer32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="b3c1b78a-e69d-11df-87fb-0027103ea5f4" name="StopTimerAction" label="StopTimerAction" metaclass="StateInvariant" is-hidden="false">
+          <icons>
+              <small path="UTP/res/bmp/stoptimer16.png" />
+              <explorer path="UTP/res/bmp/stoptimer16.png" />
+              <diagram path="UTP/res/bmp/stoptimer32.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="e48dbbe4-e69d-11df-87fb-0027103ea5f4" name="ValidationAction" label="ValidationAction" metaclass="StateInvariant" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="7141dc50-e69e-11df-87fb-0027103ea5f4" name="U2TPTypes" label="U2TPTypes" metaclass="Package" is-hidden="true">
+          <icons>
+              <small path="UTP/res/bmp/ramc.png" />
+              <explorer path="UTP/res/bmp/ramc.png" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+  </profile>
+  
+          <classpath>
+            <entry path = "lib/UTP.jar"/>
+        </classpath>
+</module>

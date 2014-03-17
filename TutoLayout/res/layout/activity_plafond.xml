@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/premier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[I] En haut à gauche par defaut" />
+
+    <TextView
+        android:id="@+id/deuxieme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/premier"
+        android:text="[II] en dessous de (I)" />
+
+    <TextView
+        android:id="@+id/troisieme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/premier"
+        android:layout_toRightOf="@id/premier"
+        android:text="[III] en dessous et à droute de (I)" />
+
+    
+  
+    <TextView
+        android:id="@+id/quatrieme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cinquieme"
+        android:layout_alignLeft="@id/deuxieme"
+        android:text="[IV] Au dessus de (V), bord gauche aligné
+           avec le bord gauche de (II)" />
+
+      <TextView
+        android:id="@+id/cinquieme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="[V] en bas a gauche"
+        android:layout_alignParentBottom="true"
+         />
+		
+</RelativeLayout>

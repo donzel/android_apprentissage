@@ -1,0 +1,11 @@
+#
+#Mon Dec 10 11:12:28 CET 2012
+Modelio.Project.Description=This is a sample project for the UML Testing Profile module.
+com.modeliosoft.modelio.diagram.symbol.SymbolViewID.restore=true
+com.modeliosoft.modelio.edition.PropertyViewID.restore=true
+Modelio.Project.Author=cballagny
+com.modeliosoft.modelio.mda.MdaExplorerContentID.restore=false
+com.modeliosoft.modelio.edition.DescriptionViewID.restore=true
+com.modeliosoft.modelio.edition.AnnotationViewID.restore=true
+com.modeliosoft.modelio.explorer.UmlNavigatorContentID.restore=true
+com.modeliosoft.modelio.audit.AuditViewID.restore=true
