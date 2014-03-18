@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   style="@style/blueacground" >
+
+    <Button
+        android:id="@+id/italique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/a9p_green_italique"
+        android:gravity="center"
+        android:text="@string/textItalique" />
+
+    <Button
+        android:id="@+id/gras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/italique"
+        android:background="@drawable/a9p_blue_gras"
+        android:gravity="center"
+        android:text="@string/textGras" />
+
+    <Button
+        android:id="@+id/surligne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/italique"
+        android:background="@drawable/a9p_red_surligne"
+        android:text="@string/textSurlignage" />
+
+    <TextView
+        android:id="@+id/textsmiley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gras"
+        android:layout_marginTop="10dp"
+        android:text="@string/texSmiley" />
+
+    <ImageButton
+        android:id="@+id/happy"
+        style="@style/smileys"
+        android:layout_toRightOf="@id/textsmiley"
+        android:contentDescription="@string/desc_happy"
+        android:src="@drawable/face_grin" />
+
+    <ImageButton
+        android:id="@+id/middlehappy"
+        style="@style/smileys"
+        android:layout_marginLeft="25dip"
+        android:layout_toRightOf="@id/happy"
+        android:contentDescription="@string/desc_middle"
+        android:src="@drawable/face_plain_2" />
+
+    <ImageButton
+        android:id="@+id/nothappy"
+        style="@style/smileys"
+        android:layout_toRightOf="@id/middlehappy"
+        android:contentDescription="@string/desc_sad"
+        android:src="@drawable/face_sad_3" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nothappy"
+        android:checkedButton="@+id/radio2"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/chooseColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noir" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/chooseColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bleu" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/chooseColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rouge" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/hide"
+        style="@style/hideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogroupe"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dip"
+        android:text="@string/textHide" />
+
+    <View
+        android:id="@+id/barre"
+        style="@style/Divider"
+        android:layout_below="@+id/hide"
+        android:layout_marginTop="10dip" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/barre"
+        android:shrinkColumns="1"
+        android:layout_marginTop="10dip" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/textedition"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/editionTexte"
+                 android:layout_marginLeft="20dip"                 
+                 />
+
+            <EditText
+                android:id="@+id/champEdition"
+				android:layout_width="0dp" 
+   		        android:layout_height="wrap_content" 
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:lines="5"
+                android:layout_weight=".60"
+                android:layout_marginRight="20dip"
+               
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+             android:layout_marginTop="10dip">
+
+            <TextView
+                android:id="@+id/textvisu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dip"
+                android:text="@string/previsualisation" />
+
+            <TextView
+                android:id="@+id/visualisation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""
+                android:scrollbars="vertical"
+                android:maxLines="100"
+                android:paddingLeft="5dip"
+                android:paddingTop="5dip"
+                android:layout_weight=".60"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">BlocNote</string>
+	<string name="multilines">Line1Line1\nLine2Line2</string>
+	<string name="textGras">Gras</string>
+	<string name="textSurlignage">Souligné</string>
+	<string name="textItalique">Italique</string>
+	<string name="texSmiley">Smileys : </string>
+	<string name="textHide">Cacher</string>
+	<string name="textShow">Afficher</string>
+	<string name="desc_happy">Smiley is happy </string>
+	<string name="desc_middle">Smiley is okey </string>
+	<string name="desc_sad">Smiley is sad </string>
+	<string name="editionTexte"> Edition : </string>
+	<string name="previsualisation"> Previsualisation : </string>
+</resources>
